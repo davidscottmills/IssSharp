@@ -23,3 +23,7 @@ var passTimeRequest = new IssPassTimesRequest(lat, lon)
 };
 var passTimeResponse = passTimeRequest.Execute() as IssPassTimeResponse;
 ```
+# Release Notes
+
+## Version 1.0.0
+Initial release.
