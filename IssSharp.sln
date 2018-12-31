@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssSharp", "IssSharp\IssSharp.csproj", "{9E7A5461-76E2-447A-BD1A-A5A95D087AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssSharp.Tests", "IssSharp.Tests\IssSharp.Tests.csproj", "{F484943B-81C9-4698-8EC2-E18BE2C70658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E7A5461-76E2-447A-BD1A-A5A95D087AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7A5461-76E2-447A-BD1A-A5A95D087AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7A5461-76E2-447A-BD1A-A5A95D087AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7A5461-76E2-447A-BD1A-A5A95D087AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F484943B-81C9-4698-8EC2-E18BE2C70658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F484943B-81C9-4698-8EC2-E18BE2C70658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F484943B-81C9-4698-8EC2-E18BE2C70658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F484943B-81C9-4698-8EC2-E18BE2C70658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
