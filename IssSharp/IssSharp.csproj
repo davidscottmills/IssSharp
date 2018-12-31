@@ -2,16 +2,19 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>0.0.1</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>David Mills</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
     <Owners>David Mills</Owners>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>History Release Notes
+https://github.com/davidscottmills/IssSharp/blob/master/README.md#release-notes</PackageReleaseNotes>
     <Summary>IssSharp is a package for consuming the REST api found at OpenNotify, which provides information on the location and passtimes of the International Space Station.</Summary>
     <PackageTags>International Space Station</PackageTags>
     <Title>IssSharp</Title>
     <Description>IssSharp is a tool for consuming the REST api found at Open Notify (http://open-notify.org/). It allows for finding the current location of the International Space Station and overhead pass predictions for the International Space Station.</Description>
+    <PackageProjectUrl>https://github.com/davidscottmills/IssSharp</PackageProjectUrl>
+    <PackageId>DavidSMills.IssSharp</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -19,7 +22,6 @@
     <Folder Include="Requests\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
   </ItemGroup>
 </Project>
