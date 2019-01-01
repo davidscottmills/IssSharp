@@ -1,5 +1,5 @@
 # IssSharp
-IssSharp is a package for consuming the REST api found at OpenNotify, which provides information on the location and passtimes of the International Space Station.
+IssSharp is a C# package for consuming the REST api found at OpenNotify, which provides information on the location and passtimes of the International Space Station.
 
 # Installation
 Package Manager
