@@ -20,7 +20,7 @@ var issLocationRequest = new IssLocationRequest();
 var locResponse = issLocationRequest.Execute() as IssLocationResponse;
 ```
 
-Get Iss Pass Times
+Get ISS Pass Times for Location
 ```c#
 var lat = 40.014984;
 var lon = -105.270546;
