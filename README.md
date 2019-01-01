@@ -1,7 +1,7 @@
 # IssSharp
 IssSharp is a package for consuming the REST api found at OpenNotify, which provides information on the location and passtimes of the International Space Station.
 
-# Installing
+# Installation
 Package Manager
 ```
 PM > Install-Package DavidSMills.IssSharp -Version 1.0.1
